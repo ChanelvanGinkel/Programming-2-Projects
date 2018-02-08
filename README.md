@@ -4,7 +4,7 @@ Projects made in year 2 programming at Skyline High School.
 
 ## SPOTLIGHT PROJECT
 ### Roach Population Project
-'''
+'''markdown
 import java.awt.event.ActionListener;
 import javax.swing.JButton;
 import javax.swing.JFrame;
@@ -27,9 +27,9 @@ public class ButtonViewer {
 
 	}
 }
-'''
+'''markdown
 
-'''
+'''markdown
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -52,5 +52,5 @@ public class RoachPop implements ActionListener {
 	}
 
 }
-'''
+'''markdown
 
