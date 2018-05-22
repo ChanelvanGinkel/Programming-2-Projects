@@ -5,9 +5,17 @@ Projects made in year 2 programming at Skyline High School.
 ## SPOTLIGHT PROJECT
 ### COLORING BOOK
 Main Class
+```markdown
+code
+```
 Class for Drawing
+```markdown
+code
+```
 Class for Coloring
-
+```markdown
+code
+```
 ## OTHER PROJECTS
 ### Roach Population Program
 
