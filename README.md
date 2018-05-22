@@ -1,8 +1,12 @@
 # IB Computer Programming
-### CHANEL VAN GINKEL
+### Chanel van Ginkel
 Projects made in year 2 programming at Skyline High School.
 
-## SPOTLIGHT PROJECT: COLORING BOOK
+## SPOTLIGHT PROJECT
+### COLORING BOOK
+Main Class
+Class for Drawing
+Class for Coloring
 
 ## OTHER PROJECTS
 ### Roach Population Program
