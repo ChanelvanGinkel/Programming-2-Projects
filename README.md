@@ -2,7 +2,9 @@
 ### CHANEL VAN GINKEL
 Projects made in year 2 programming at Skyline High School.
 
-## SPOTLIGHT PROJECT
+## SPOTLIGHT PROJECT: COLORING BOOK
+
+## OTHER PROJECTS
 ### Roach Population Program
 
 
