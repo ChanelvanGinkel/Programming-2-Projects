@@ -18,6 +18,7 @@ code
 ```
 ## OTHER PROJECTS
 ### Roach Population Program
+#### Simulates the growth of a population of cockroaches 
 
 
 Class for the Button
@@ -73,6 +74,7 @@ public class RoachPop implements ActionListener {
 ```
 
 ### Tanker Truck Program
+#### Simulates how many tanker trucks you would need to carry the estimated amout of liquid you consume in your lifetime
 Code for Program 
 ```markdown
 	import java.util.Scanner;
