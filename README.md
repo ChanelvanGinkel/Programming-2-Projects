@@ -3,18 +3,121 @@
 Projects made in year 2 programming at Skyline High School.
 
 ## SPOTLIGHT PROJECT
-### COLORING BOOK
-Main Class
+### 10 HOUR PROJECT: ASCII Art CHARADES
+Planning Process 
 ```markdown
-code
+10 Hour Programming Project Plan
+
+Phase 1: Brainstorming and formulating an Idea (1 hour )
+Tic tac toe
+Ascii Art Charades
+Hangman
+Converter of some sorts
+Expand more on “IA” project
+
+Phase 2: Choose two Ideas and expand on each of them more (2 hours)
+Ascii Art Charades:  teams play charades with ascii art.  One person from each team is picked to be the artist and then the person from the first team is given a random subject matter to depict with ascii art in under 2 minutes.  After the two minutes is up the drawing is shown to the rest of team one and they are given 30 seconds to guess the correct answer. If they get it right they get a point if not the other team gets a point.
+Tic Tac Toe:  A classic game of Tic Tac Toe with two players going against each other one as “X” one as “O” on the standard grid. They may play multiple times and at the end who ever won the most rounds is named the winner 
+
+Phase 3: Choose one of the two ideas and write pseudo code (2 hours)
+Chosen one: Ascii Art Charades
+
+Phase 4: Code (5 hours)
+
 ```
-Class for Drawing
+Code
 ```markdown
-code
-```
-Class for Coloring
-```markdown
-code
+// Pictionary or Ascii art charades game
+import java.util.Scanner;
+import java.util.Random;
+
+
+public class AsciiArtCharades {
+	public static void main(string[] args){
+		Scanner sc = new  Scanner(System.im);
+		String[] array = new String[] {"cat","monkey","toothbrush","soap","rainbow","window","fish","cup", "bed", "clock", };
+
+		int team1, team2, team3, team4;
+		int score1, score2, score3, score4;
+		String tName1, tName2, tName3, tName4;
+		System.out.println("Welcome to Ascii Art Charades \n Would you like to learn how to play? (y/n)");
+		sc = sc.nextLine;
+		if( sc == 'y'){
+			Sytem.out.println("To play this game you will need at least 2 teams and no more than 4 \n Each team will select a name for themselve and then the game will begin \n Team 1 will be asked to select one person to be their artist for this round \n the artist will then be givin a random subject matter to depict with ascii art in two minutes \n After the two minutes are up the rest of team one will be able to see what the artist has made and will be given 30 seconds to guess what it is \n If team one guess correctly they earn a point, if not team two earns a point \n The game continues with this same process for team two. \n there will be 5 rounds for each team.");	
+		}
+		System.out.println("How many teams are playing? (At least two and no more than 4)" );
+		sc = sc.nextLine;
+		if(sc == 2) {
+			System.out.println("Team One Name: ");
+			tName1 = sc.nextLine;
+			System.out.println("Team Two Name: ");
+			tName2 = sc.nextLine;
+
+		} else if(sc == 3){
+			System.out.println("Team One Name: ");
+			tName1 = sc.nextLine;
+			System.out.println("Team Two Name: ");
+			tName2 = sc.nextLine;
+			System.out.println("Team Three Name: ");
+			tName3 = sc.nextLine;
+
+		} else {
+			System.out.println("Team One Name: ");
+			tName1 = sc.nextLine;
+			System.out.println("Team Two Name: ");
+			tName2 = sc.nextLine;
+			System.out.println("Team Three Name: ");
+			tName3 = sc.nextLine;
+			System.out.println("Team Four Name: ");
+			tName4 = sc.nextLine;
+
+		}
+		System.out.println("Let the game begin! " );
+		for(int i = o; i < 5; i++){
+			score1 = 0;
+			System.out.println(tName1 + " choose your artist for this round.\n Your subject matter is... (press 'n' to continue)");
+			sc = sc.nextLine;
+			if(sc == "n"){
+				String sub = rand.array(10);
+				System.out.println("Time to draw, " + sub);
+				String ascii = sc.nextString;
+				System.out.println("Time to guess! " + tName1 + "take a look and the enter your guess."); 
+				String guess = sc.nextString;
+				if (guess == sub) {
+
+					score1++;
+				}else {
+
+					score2++;
+				}
+				System.out.println("Next Round!");
+			}
+			score2 = 0;
+			System.out.println(tName2 + " choose your artist for this round.\n Your subject matter is... (press 'n' to continue)");
+			sc = sc.nextLine;
+			if(sc == "n"){
+				String sub = rand.array(10);
+				System.out.println("Time to draw, " + sub);
+				String ascii = sc.nextString;
+				System.out.println("Time to guess! " + tName2 + "take a look and the enter your guess."); 
+				String guess = sc.nextString;
+				if (guess == sub) {
+
+					score2++;
+				}else {
+
+					score1++;
+				}
+				System.out.println("Next Round!");
+
+
+			}
+			
+		}
+		
+	}
+	
+}
 ```
 ## OTHER PROJECTS
 ### Roach Population Program
